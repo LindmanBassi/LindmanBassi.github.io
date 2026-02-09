@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Bassi | Portfólio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="navbar">
+<nav class="nav-content">
+    <div class="nav-links">
+        <a href="#hero">Início</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </div>
+
+    <div class="theme-toggle">
+        <input type="checkbox" id="toggleTheme">
+        <label for="toggleTheme" class="toggle-switch"></label>
+    </div>
+</nav>
+</header>
+
+
+
+<section id="hero" class="hero">
+
+    <div class="hero-text">
+        <h1>Olá, eu sou o <span>Henrique Bassi</span></h1>
+        <h2>Desenvolvedor Java</h2>
+
+        <p>
+           Sou desenvolvedor back-end com foco em Java e Spring Boot, com experiência em desenvolvimento de APIs, automação de processos e boas práticas de arquitetura limpa.
+
+Atualmente, atuo como estagiário na Prefeitura da Estância Turística de Salto, realizando manutenção, evolução de sistemas e desenvolvimento de soluções voltadas à área social. Também atuei como desenvolvedor voluntário no Instituto Zoom, criando soluções que otimizaram processos internos e aumentaram a eficiência operacional.
+
+Trabalho com JPA, MySQL, PrimeFaces, JWT, Git/GitHub, AWS e testes unitários com JUnit e Mockito. Sou estudante de Ciência da Computação pelo IFSP e busco constante evolução técnica por meio de projetos desafiadores e aprendizado contínuo.
+
+
+        <div class="hero-actions">
+            <a href="imagens/cvBassi.pdf"  class="btn-primary" download="Henrique_Bassi_CV.pdf"> Download CV </a>
+            <a href="#contato" class="btn-secondary">Contato</a>
+        </div>
+    </div>
+
+    <div class="hero-photo">
+        <img src="imagens/profile-pic (1).png" alt="Henrique Bassi">
+    </div>
+
+</section>
+
+<section id="skills"  class="reveal">
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <img src="imagens/skills/Java-Dark.svg" alt="Java" class="skill-icon">
+            <span>Java</span>
+        </div>
+        <div class="skill-card">
+            <img src="imagens/skills/Spring-Dark.svg" alt="Spring Boot" class="skill-icon">
+            <span>Spring Boot</span>
+        </div>
+        <div class="skill-card">
+            <img src="imagens/skills/MySQL-Dark.svg" alt="MySQL" class="skill-icon">
+            <span>MySQL</span>
+        </div>
+        <div class="skill-card">
+            <img src="imagens/skills/PostgreSQL-Dark.svg" alt="PostgreSQL" class="skill-icon">
+            <span>PostgreSQL</span>
+        </div>
+        <div class="skill-card">
+            <img src="imagens/skills/Git.svg" alt="Git" class="skill-icon">
+            <span>Git</span>
+        </div>
+         <div class="skill-card">
+            <img src="imagens/skills/Github-Dark.svg" alt="GitHub" class="skill-icon">
+            <span>GitHub</span>
+        </div>
+        
+        <div class="skill-card">
+            <img src="imagens/skills/AWS-Dark.svg" alt="AWS" class="skill-icon">
+            <span>AWS</span>
+        </div>
+       <div class="skill-card">
+            <img src="imagens/skills/Docker.svg" alt="Docker" class="skill-icon">
+            <span>Docker</span>
+        
+        </div>
+    </div>
+</section>
+
+<section id="projetos"  class="reveal"> 
+    <h2>Projetos</h2>
+
+    <div class="projects-grid">
+        <div class="project-card">
+            <img src="imagens/EventosTech.svg" class="project-img">
+            <h3>EvT – Eventos Tech</h3>
+            <p>
+                Plataforma full stack para gerenciamento de eventos desenvolvida com Java,
+                Spring Boot e React. Possui autenticação, controle de usuários e gestão completa
+                de inscrições, implantada na AWS.
+            </p>
+            <a href="https://github.com/LindmanBassi/EvT---Eventos-Tech" target="_blank">Ver no GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <img src="imagens/expensegate.png" class="project-img">
+            <h3>ExpenseGate</h3>
+            <p>
+                API REST para controle de despesas corporativas utilizando Spring Security
+                com RBAC e ABAC, autenticação JWT, validações e arquitetura preparada para produção.
+            </p>
+            <a href="https://github.com/LindmanBassi/ExpenseGate" target="_blank">Ver no GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <img src="imagens/qa.webp" class="project-img">
+            <h3>Tests & QA</h3>
+            <p>
+                Framework de testes automatizados em Java usando JUnit 5 e Mockito,
+                incluindo testes de mutação com PIT para garantir qualidade,
+                cobertura e confiabilidade do código.
+            </p>
+            <a href="https://github.com/LindmanBassi/Tests-and-QA" target="_blank">Ver no GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <img src="imagens/safentoes.jpg" class="project-img">
+            <h3>Safe Notes</h3>
+            <p>
+                API REST segura para gerenciamento de notas pessoais desenvolvida com Java e Spring Boot.
+                Implementa autenticação moderna com JWT, OAuth2 e RBAC, incluindo refresh tokens persistidos,
+                criptografia RSA e arquitetura stateless alinhada a padrões corporativos.
+            </p>
+            <a href="https://github.com/LindmanBassi/Safe-notes" target="_blank">Ver no GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <img src="imagens/banco.jpg" class="project-img">
+            <h3>H-Bank</h3>
+            <p>
+                Sistema bancário desenvolvido em Java simulando operações financeiras,
+                com foco em orientação a objetos, regras de negócio e organização de camadas.
+            </p>
+            <a href="https://github.com/LindmanBassi/H-Bank" target="_blank">Ver no GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <img src="imagens/stockly.jpg" class="project-img">
+            <h3>Stockly</h3>
+            <p>
+                Sistema backend de controle de estoque desenvolvido com Spring Boot e MySQL,
+                com cadastro de requisições de compra, regras automatizadas de reposição e integração
+                com APIs externas simuladas via Mockoon, preparado para evolução em arquitetura de microserviços.
+            </p>
+            <a href="https://github.com/LindmanBassi/Stockly" target="_blank">Ver no GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <img src="imagens/ecommerce.jpg" class="project-img">
+            <h3>E-Commerce</h3>
+            <p>
+                API REST de e-commerce construída com Spring Boot e Spring Data JPA, contendo gestão de pedidos,
+                clientes e produtos, com modelagem avançada de relacionamentos JPA, paginação, estratégias de
+                carregamento e boas práticas de persistência.
+            </p>
+            <a href="https://github.com/LindmanBassi/E-Commerce" target="_blank">Ver no GitHub</a>
+        </div>
+    </div>
+</section>
+
+<section id="contato"  class="reveal">
+    <h2>Contato</h2>
+
+    <div class="contact-list">
+
+        <a class="contact-item" href="mailto:lindmandev@gmail.com">
+            <img src="imagens/skills/Gmail-Dark.svg">
+            <span>lindmandev@gmail.com</span>
+        </a>
+
+        <a class="contact-item" href="https://github.com/LindmanBassi" target="_blank">
+            <img src="imagens/skills/Github-Dark.svg">
+            <span>github.com/LindmanBassi</span>
+        </a>
+
+        <a class="contact-item" href="https://www.linkedin.com/in/henrique-lindman-bassi/" target="_blank">
+            <img src="imagens/skills/LinkedIn.svg">
+            <span>linkedin.com/in/henrique-lindman-bassi</span>
+        </a>
+
+    </div>
+</section>
+
+
+<footer>
+    © 2026 - Henrique Bassi
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
